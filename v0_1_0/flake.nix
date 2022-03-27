@@ -11,6 +11,7 @@
   inputs.src-nimactors-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-nimactors-v0_1_0.owner = "vegansk";
   inputs.src-nimactors-v0_1_0.repo  = "nimactors";
+  inputs.src-nimactors-v0_1_0.dir   = "";
   inputs.src-nimactors-v0_1_0.type  = "github";
   
   inputs."nimfp".owner = "nim-nix-pkgs";
