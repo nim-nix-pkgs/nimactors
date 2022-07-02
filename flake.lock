@@ -97,11 +97,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1653703614,
-        "narHash": "sha256-SIWVBZlWEO8wE2kyBHP+Q635Qdhqsq/+pPnsIIEdQZo=",
+        "lastModified": 1656302649,
+        "narHash": "sha256-EZ2mZs2OuSMAodMHtZyA00TFct2E/glafhuhhZvtJUs=",
         "owner": "nim-nix-pkgs",
         "repo": "nimactors",
-        "rev": "2b1f07eacedfd9d1ab86c49087031fea0d5a781b",
+        "rev": "847d8a90717f9d84f372ad8e32f285bed1fe5b84",
         "type": "github"
       },
       "original": {
@@ -126,11 +126,11 @@
       },
       "locked": {
         "dir": "v0_1_0",
-        "lastModified": 1653703614,
-        "narHash": "sha256-SIWVBZlWEO8wE2kyBHP+Q635Qdhqsq/+pPnsIIEdQZo=",
+        "lastModified": 1656302649,
+        "narHash": "sha256-EZ2mZs2OuSMAodMHtZyA00TFct2E/glafhuhhZvtJUs=",
         "owner": "nim-nix-pkgs",
         "repo": "nimactors",
-        "rev": "2b1f07eacedfd9d1ab86c49087031fea0d5a781b",
+        "rev": "847d8a90717f9d84f372ad8e32f285bed1fe5b84",
         "type": "github"
       },
       "original": {
@@ -156,11 +156,11 @@
       },
       "locked": {
         "dir": "v0_5_5",
-        "lastModified": 1653702956,
-        "narHash": "sha256-/KvG0bXbm/z+vYqhHD3Mag8EnC7BAg/ujmrpuxcpAVY=",
+        "lastModified": 1656301833,
+        "narHash": "sha256-vm1Wqd978GO5bsJxN70IobV2/7Lwu4iQxiwgjKOploI=",
         "owner": "nim-nix-pkgs",
         "repo": "nimboost",
-        "rev": "ea9cefc4b16c747b082f3927a5b336a8d60fdfca",
+        "rev": "8a3a40481a219f50351a70c1453b825b68c05ff1",
         "type": "github"
       },
       "original": {
@@ -281,11 +281,11 @@
       },
       "locked": {
         "dir": "v0_4_4",
-        "lastModified": 1653703374,
-        "narHash": "sha256-+ru0YUOOSezWEgJm1kBCFv6LbQmDC8Yp/NBU6YQMuGI=",
+        "lastModified": 1656302302,
+        "narHash": "sha256-pis7DDCKDul13XeRjEonfEFpuhe35pWhVSkrfNOA7Xw=",
         "owner": "nim-nix-pkgs",
         "repo": "nimfp",
-        "rev": "f797e8fb4f505f60cb5c8403dcdede8839081574",
+        "rev": "3cf15c6288feae151050f56531ba1e73c331b678",
         "type": "github"
       },
       "original": {
@@ -374,11 +374,13 @@
       "inputs": {
         "flakeNimbleLib": [
           "nimactors-master",
+          "nimfp",
           "nimboost",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "nimactors-master",
+          "nimfp",
           "nimboost",
           "nixpkgs"
         ],
